@@ -9,5 +9,5 @@
    - As well as I have learnt how to handle the input from the user, how to use the jinja template for google app engine and how to use SQL databases in python. Finally, how to build a complete login system to authenticate the users. 
    - The challenges that I have faced how to use the cookies for authentication and how to use jinja2 template and webapp2 framwwork. All concepts in this project are very new. One more thing is how to deploy my web app in gcloud. Read the Google App engine Documentation and I have solved the problems in my code using google search engine and have seen many solutions in other discussion sites like Stack Overflow, Quora. 
    
-* Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list \(\<ul\>..\<\/ul\>\) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?   
+* Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list    \(\<ul\>..\<\/ul\>\) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?   
          
