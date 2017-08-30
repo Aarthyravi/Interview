@@ -65,7 +65,7 @@
             into web pages viewed by other users. 
           - In XSS attacks, the victim is the user and not the application.
           - In XSS attacks, malicious content is delivered to users using JavaScript
-       -   ## How to prevent the XSS attack?
+       -   # How to prevent the XSS attack?
           - First we have to sanitize the users Input.
           - A web application firewall (WAF) is an application firewall for HTTP applications. It applies a set of rules to an HTTP
             conversation.The rules cover common attacks such as cross-site scripting (XSS) and SQL injection. WAFs protect servers
