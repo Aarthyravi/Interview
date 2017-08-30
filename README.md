@@ -11,18 +11,18 @@
    
 * Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list\(\<ul\>..\<\/ul\>\) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?   
   > def list(strlst):
-    output = ""
-    output += "List of Food\n"
-    output += "\n<ul>"
-    for i in strlst:
-        output += "\n <li>" + i + "</li>"
+  >     output = ""
+  >     output += "List of Food\n"
+  >     output += "\n<ul>"
+  >     for i in strlst:
+  >         output += "\n <li>" + i + "</li>"
         
-    output += "\n</ul>"
+  >     output += "\n</ul>"
     
-    return output
+  >     return output
 
-foodlist = ["Pizza", "Burger", "Noodles", "Soup"]
-print list(foodlist)
+  > foodlist = ["Pizza", "Burger", "Noodles", "Soup"]
+  > print list(foodlist)
        
   
          
