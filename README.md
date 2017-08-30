@@ -41,5 +41,5 @@
  Have to consider if the original list was provided by user input? 
    - If we check whether the user input is string or not. And we would need to check the input is blank or not. 
      So we have to use If...else conditional statement for check and to display the proper error message.       
-# List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?  
+* List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?  
          
