@@ -71,5 +71,5 @@
              conversation.The rules cover common attacks such as cross-site scripting (XSS) and SQL injection. WAFs protect servers.
            - All variable output in a page is encoded before being returned to the end user. Encoding variable output substitutes HTML
              markup with alternate representations called entities. The browser displays the entities but does not run them.
-             ex:- \<script\> gets converted to \&lt\;script\&gt\;. 
+             ex:- \<script\> gets converted to \&lt\;script\&gt\;\. 
              
