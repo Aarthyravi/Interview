@@ -53,6 +53,7 @@
               A hacker might get access to all the student names and passwords in a database, by simply inserting 12 OR 1=1 into the
               input field. 
        * how to prevent this SQL injection?
+         - User input should never be trusted - It must always be sanitized before it is used in dynamic SQL statements.
          - To protect a web site from SQL injection, we can use SQL parameters.
            
                txtrollno = request.get("RollNo");
