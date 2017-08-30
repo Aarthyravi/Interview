@@ -25,6 +25,19 @@
 
       foodlist = ["Pizza", "Burger", "Noodles", "Soup"]
       print list(foodlist)
+      
+  - The python function 'list(foodlist)' that takes a list of strings and for loop iteration is used to returns the ordered list what I have given in the List array. Finally returns a single string that is an HTML unordered list. My output is :
+        
+        >>> 
+        List of Food
+
+        <ul>
+         <li>Pizza</li>
+         <li>Burger</li>
+         <li>Noodles</li>
+         <li>Soup</li>
+        </ul>
+        >>>    
        
   
          
