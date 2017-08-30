@@ -52,5 +52,8 @@
          - SELECT * FROM Students WHERE rollno = 12 OR 1=1;
             * The SQL above is valid and will return ALL rows from the "Students" table, since OR 1=1 is always TRUE.
             A hacker might get access to all the student names and passwords in a database, by simply inserting 12 OR 1=1 into the input               field. 
-       *how to prevent this SQL injection?
-         - 
+       * how to prevent this SQL injection?
+         - To protect a web site from SQL injection, we can use SQL parameters.
+         - txtrollno = request.get("RollNo");
+           txtSQL = "SELECT * FROM Students WHERE rno = @0";
+           db.Execute(txtSQL,txtrollno);
