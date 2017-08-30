@@ -68,4 +68,8 @@
        -   #How to prevent the XSS attack?
            - First we have to sanitize the users Input.
            - A web application firewall (WAF) is an application firewall for HTTP applications. It applies a set of rules to an HTTP
-            conversation.The rules cover common attacks such as cross-site scripting (XSS) and SQL injection. WAFs protect servers
+             conversation.The rules cover common attacks such as cross-site scripting (XSS) and SQL injection. WAFs protect servers.
+           - All variable output in a page is encoded before being returned to the end user. Encoding variable output substitutes HTML
+             markup with alternate representations called entities. The browser displays the entities but does not run them.
+             ex:- \<script\> gets converted to &lt;script&gt;. 
+             
