@@ -38,7 +38,8 @@
          <li>Soup</li>
         </ul>
         >>>    
-  - Have to consider if the original list was provided by user input? 
-     * 
+ Have to consider if the original list was provided by user input? 
+   - If we check whether the user input is string or not. And we would need to check the input is blank or not. 
+     So we have to use If...else conditional statement for check and to display the proper error message.       
   
          
