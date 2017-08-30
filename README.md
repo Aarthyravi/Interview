@@ -65,5 +65,5 @@
             into web pages viewed by other users. 
           - In XSS attacks, the victim is the user and not the application.
           - In XSS attacks, malicious content is delivered to users using JavaScript
-       *how to prevent the XSS attack?
+          * how to prevent the XSS attack?
           - 
