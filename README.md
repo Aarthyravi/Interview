@@ -54,6 +54,6 @@
               input field. 
        * how to prevent this SQL injection?
          - To protect a web site from SQL injection, we can use SQL parameters.
-          > txtrollno = request.get("RollNo");
-          > txtSQL = "SELECT * FROM Students WHERE rno = @0";
-          > db.Execute(txtSQL,txtrollno);
+             * txtrollno = request.get("RollNo");
+               txtSQL = "SELECT * FROM Students WHERE rno = @0";
+               db.Execute(txtSQL,txtrollno);
