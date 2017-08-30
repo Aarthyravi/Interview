@@ -50,5 +50,5 @@
            For ex. Roll No. 12 OR 1 = 1 - This is the Hacker input.
            
            SELECT * FROM Students WHERE rollno = 12 OR 1=1;
-           The SQL above is valid and will return ALL rows from the "Students" table, since OR 1=1 is always TRUE.
-           A hacker might get access to all the user names and passwords in a database, by simply inserting 12 OR 1=1 into the input                field.  
+             -The SQL above is valid and will return ALL rows from the "Students" table, since OR 1=1 is always TRUE.
+               A hacker might get access to all the user names and passwords in a database, by simply inserting 12 OR 1=1 into the input                field.  
