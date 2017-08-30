@@ -44,6 +44,6 @@
      
  * List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?  
    
-   1.SQL injection 
+    1.SQL injection 
          - It is a code injection technique that might destroy our database.It is one of the most common web hacking techniques.
            SQL Injection Based on 1=1 is Always True
