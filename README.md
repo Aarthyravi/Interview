@@ -59,3 +59,11 @@
                txtrollno = request.get("RollNo");
                txtSQL = "SELECT * FROM Students WHERE rno = @0";
                db.Execute(txtSQL,txtrollno);
+               
+     2. Cross-Site Scripting (XSS) 
+          - XSS is a web-based attack performed on vulnerable web applications. XSS enables attackers to  inject client-side scripts  
+            into web pages viewed by other users. 
+          - In XSS attacks, the victim is the user and not the application.
+          - In XSS attacks, malicious content is delivered to users using JavaScript
+        * how to prevent the XSS attack?
+          - 
