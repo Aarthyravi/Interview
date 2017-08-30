@@ -72,4 +72,5 @@
            - All variable output in a page is encoded before being returned to the end user. Encoding variable output substitutes HTML
              markup with alternate representations called entities. The browser displays the entities but does not run them.
              ex:- \<script\> gets converted to \&lt\;script\&gt\;\. 
-             
+  * Expand on the starter code and include a route that simulates rolling two dice and returns the result in JSON. You should include 
+    a brief explanation of your code.       
