@@ -95,8 +95,7 @@
          app.run() 
          
       - app.run function - To run the local server with our application.
-        @app.route (decorator) - wraps our function inside the app.route function that Flash has already created. Two python libraries  
-        flask and random that has been used in this program. The function random.randint(1,6) returns the random intergers between 1     
-        and 6. so, random numbers of two dices are added together and stored it in variable named sumofdice. Finally sumofdice value 
-        returns in JSON.
+        @app.route (decorator) - wraps our function inside the app.route function that Flash has already created. 
+        Two python libraries flask and random that has been used in this program. The function random.randint(1,6) returns the random           intergers between 1 and 6. so, random numbers of two dices are added together and stored it in variable named sumofdice. Finally 
+        sumofdice value returns in JSON.
         
