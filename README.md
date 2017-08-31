@@ -87,13 +87,12 @@
          
          @app.route('/rolldice')
          def dice():
-             # Define rollcount
-             rollcount = []
+             count = []
              for i in range(0, 1):
                  sumofdice = random.randint(1, 6) + random.randint(1, 6)
-                 rollcount.append(sumofdice)
+                 count.append(sumofdice)
     
-             return jsonify(rollcount)
+             return jsonify(count)
 
          if __name__ == '__main__':
          app.debug = True
