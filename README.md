@@ -100,5 +100,8 @@
         sumofdice value returns in JSON.
         
    *  If you were to start your full-stack developer position today, what would be your goals a year from now?
-     -
+       - First I would like to part of this software world. This is my first career Opportunity to apply my web knowledge.
+       - I would like to cooperate with my team. I hope, this Nanodegree full stack course has developed me for the cutting edge web 
+         technology.Even I am willing to learn new technologies. If I get this opportunity, it would be very helpful to improve my
+         knowledge. 
         
