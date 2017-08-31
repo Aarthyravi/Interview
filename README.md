@@ -99,3 +99,6 @@
         Two python libraries flask and random that has been used in this program. The function random.randint(1,6) returns the random           intergers between 1 and 6. so, random numbers of two dices are added together and stored it in variable named sumofdice. Finally 
         sumofdice value returns in JSON.
         
+   *  If you were to start your full-stack developer position today, what would be your goals a year from now?
+     -
+        
