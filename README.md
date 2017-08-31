@@ -87,13 +87,12 @@
          
          @app.route('/rolltwodice')
          def dice():
-             count = []
-             for i in range(0, 1):
-                 sumofdice = random.randint(1, 6) + random.randint(1, 6)
-                 count.append(sumofdice)
-    
-             return jsonify(count)
+             sumofdice = random.randint(1, 6) + random.randint(1, 6)
+             return jsonify(sumofdice)
 
          if __name__ == '__main__':
          app.debug = True
-         app.run()
+         app.run() 
+         
+      - app.run function - To run the local server with our application.
+        @app.route (decorator) - wraps our function inside the app.route function that Flash has already created.    
