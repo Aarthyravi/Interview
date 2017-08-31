@@ -73,4 +73,18 @@
              markup with alternate representations called entities. The browser displays the entities but does not run them.
              ex:- \<script\> gets converted to \&lt\;script\&gt\;\. 
   *  Expand on the starter code and include a route that simulates rolling two dice and returns the result in JSON. You should include 
-     a brief explanation of your code.       
+     a brief explanation of your code.   
+        
+         from flask import Flask
+         app = Flask(__name__)
+
+         import json
+         import random
+
+         @app.route('/')
+         def hello_world():
+         return 'Hello World!'
+
+         if __name__ == '__main__':
+         app.debug = True
+         app.run()
