@@ -75,7 +75,7 @@
   *  Expand on the starter code and include a route that simulates rolling two dice and returns the result in JSON. You should include 
      a brief explanation of your code.   
         
-         from flask import Flask
+         from flask import Flask, jsonify
          app = Flask(__name__)
 
          import json
@@ -85,7 +85,7 @@
          def hello_world():
          return 'Hello World!'
          
-         @app.route('/rolldice')
+         @app.route('/rolltwodice')
          def dice():
              count = []
              for i in range(0, 1):
