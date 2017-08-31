@@ -84,6 +84,16 @@
          @app.route('/')
          def hello_world():
          return 'Hello World!'
+         
+         @app.route('/rolldice')
+         def dice():
+             # Define rollcount
+             rollcount = []
+             for i in range(0, 1):
+                 sumofdice = random.randint(1, 6) + random.randint(1, 6)
+                 rollcount.append(sumofdice)
+    
+             return jsonify(rollcount)
 
          if __name__ == '__main__':
          app.debug = True
