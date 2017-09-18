@@ -13,8 +13,7 @@
    
       #HTML unordered list in python
       def list(strlst):
-          output = ""
-          output += "List of Food\n"
+          output = "List of Food\n"
           output += "\n<ul>"
           for i in strlst:
               output += "\n <li>" + i + "</li>"
@@ -81,14 +80,12 @@
          import json
          import random
 
-         @app.route('/')
-         def hello_world():
-         return 'Hello World!'
-         
+              
          @app.route('/rolltwodice')
          def dice():
-             sumofdice = random.randint(1, 6) + random.randint(1, 6)
-             return jsonify(sumofdice)
+             d1 = random.randint(1, 6) 
+             d2 = random.randint(1, 6)
+             return jsonify({'dice1' : d1, 'dice2' : d2})
 
          if __name__ == '__main__':
          app.debug = True
