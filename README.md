@@ -15,9 +15,8 @@ India's biggest online store Flipkart has moved their app from Andriod to Web th
    
       #HTML unordered list in python
       def list(strlst):
-          output = "List of Food\n"
-          output += "\n<ul>"
-         
+          output = "List of Food\n\n<ul>"
+                   
           if str in strlst or strlst == string:
               for i in strlst:
                   output += "\n <li>" + i + "</li>"
