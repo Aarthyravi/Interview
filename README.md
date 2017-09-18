@@ -15,12 +15,16 @@
       def list(strlst):
           output = "List of Food\n"
           output += "\n<ul>"
-          for i in strlst:
-              output += "\n <li>" + i + "</li>"
+         
+          if str in strlst or strlst == string:
+              for i in strlst:
+                  output += "\n <li>" + i + "</li>"
         
-          output += "\n</ul>"
+              output += "\n</ul>"
     
-          return output
+              return output
+          else:
+              return []
 
       foodlist = ["Pizza", "Burger", "Noodles", "Soup"]
       print list(foodlist)
@@ -39,7 +43,8 @@
         >>>    
   Have to consider if the original list was provided by user input? 
    - If we check whether the user input is string or not. And we would need to check the input is blank or not. 
-     So we have to use If...else conditional statement for check and to display the proper error message.       
+     So we have to use If...else conditional statement for check and to display the proper error message. 
+     To prevent the XSS attack First we have to sanitize the users Input. WAFs(Web Application Firewall) protect servers.
      
  * List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?  
    
