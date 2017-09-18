@@ -1,7 +1,9 @@
 # Interview Practice (Full Stack)
 
  * What is the most influential book or blog post you’ve read regarding web development?
-    - I haven't read a book or blog about the Web Development. I have read only Udacity Documentation. Before I have started this udacity course, I have done some projects using HTML,PHP with MYSQL. While working on that project I got struggle to design the frond end and to store the data on the back end. Hopefully Now I am familiar with HTML, CSS, js and database.
+    - First I have completed "Programming Mobile Applications for Android Handheld Systems: Part 1" course in Coursera. Then I heard about Google Polymer that we can be able to create custom reusable HTML elements, and use them to build performant, maintainable apps.
+India's biggest online store Flipkart has moved their app from Andriod to Web that is more scalability & portability. After that I have more interested to design & develop a web page.     
+    - So I have joined Udacity Full stack web developer course on December 2016.Before I have started this udacity course, I have done some projects using HTML,PHP with MYSQL. While working on that project I got struggle to design the frond end and to store the data on the back end. Hopefully Now I am familiar with HTML, CSS, js and database.
     - Now I can able to design a web application using python/front-end frameworks like webapp2, flask/Bootstrap and jinja is one of the most used templates for python.
  
  * Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them? 
